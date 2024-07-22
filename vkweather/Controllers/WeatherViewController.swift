@@ -142,6 +142,7 @@ class WeatherViewController: UIViewController {
     }
 }
 
+//MARK: - Weather Delegate
 extension WeatherViewController: WeatherModelChangeDelegate {
     func onModelChanged(_ weather: Weather) {
         let isRaining = [.rainy, .stormy].contains(weather)
