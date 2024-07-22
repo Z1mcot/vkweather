@@ -1,6 +1,7 @@
 {
-  "colors" : [
+  "images" : [
     {
+      "filename" : "rainy_cloud.svg",
       "idiom" : "universal"
     }
   ],
